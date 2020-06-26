@@ -1,0 +1,185 @@
+name: poolinspection
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^0.5.6+2
+  flushbar: ^1.10.4
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  global_configuration: ^1.4.0    
+  dynamic_theme: ^1.0.1
+  mvc_pattern: ^3.6.0
+  image_cropper: ^1.2.3
+  permission_handler: ^5.0.0+hotfix.8
+  date_format: ^1.0.8
+  signature: ^3.1.1
+  webview_flutter: ^0.3.21
+  flutter_chips_input: ^1.9.0-dev.1
+  open_file: ^3.0.1
+  flutter_full_pdf_viewer: ^1.0.4
+  flutter_form_builder: 
+  intl: 
+  # bubble_tab_indicator: "^0.1.4"
+  image_picker: ^0.6.7+2
+  multi_image_picker: ^4.6.7
+  percent_indicator: ^2.1.1+1
+  flutter_launcher_icons: ^0.7.4
+  # flutter_grid_button: ^1.1.6
+  # stretchy_header: ^1.0.7
+  dio: ^3.0.8
+
+  json_to_form: ^0.0.4
+  rflutter_alert: ^1.0.3
+  # expandable: ^4.1.2
+  xform: 
+  # search_widget: ^1.0.2
+  connectivity: ^0.4.8+1
+  flutter_downloader: ^1.4.1
+  file_picker: ^1.6.2
+  path_provider: ^1.6.5
+  share_extend: ^1.1.1
+  toast:
+  fluttertoast: ^4.0.0
+  flutter_signature_pad: ^2.0.2
+  localstorage: ^3.0.0
+  progress_dialog: ^1.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/img/app-iconwhite.jpg" 
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/cfg/
+    - assets/img/visa.png
+    - assets/img/paypal.png
+    - assets/img/paypal2.png
+    - assets/img/apple_pay.png
+    - assets/img/brazil.png
+    - assets/img/canada.png
+    - assets/img/china.png
+    - assets/img/france.png
+    - assets/img/germany.png
+    - assets/img/italy.png
+    - assets/img/netherlands.png
+    - assets/img/spain.png
+    - assets/img/united-arab-emirates.png
+    - assets/img/united-states-of-america.png
+    - assets/img/marker.png
+    - assets/img/my_marker.png
+    - assets/img/mastercard.png
+    - assets/img/visacard.png
+    - assets/img/wallet.png
+    - assets/img/cash.png
+    - assets/img/pay_pickup.png
+    - assets/img/app-iconwhite.jpg
+    - assets/img/logo.png
+    - assets/img/poolsplashimage.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  # - family: Poppins
+  #   fonts:
+      # - asset: assets/fonts/Poppins-Thin.ttf
+      #   weight: 100
+      # - asset: assets/fonts/Poppins-ExtraLight.ttf
+      #   weight: 200
+      # - asset: assets/fonts/Poppins-Light.ttf
+      #   weight: 300
+      # - asset: assets/fonts/Poppins-Regular.ttf
+      #   weight: 400
+      # - asset: assets/fonts/Poppins-Medium.ttf
+      #   weight: 500
+      # - asset: assets/fonts/Poppins-SemiBold.ttf
+      #   weight: 600
+      # - asset: assets/fonts/Poppins-Bold.ttf
+      #   weight: 700
+      # - asset: assets/fonts/Poppins-ExtraBold.ttf
+      #   weight: 800
+      # - asset: assets/fonts/Poppins-Black.ttf
+      #   weight: 900
+
+
+  fonts:
+  - family: Muli
+    fonts:
+      - asset: assets/font/Muli-ExtraLight.ttf
+        weight: 100
+      - asset: assets/font/Muli-Light.ttf
+        weight: 200
+      - asset: assets/font/Muli-Regular.ttf
+        weight: 300
+      - asset: assets/font/Muli-Medium.ttf
+        weight: 400
+      - asset: assets/font/Muli-SemiBold.ttf
+        weight: 500
+      - asset: assets/font/Muli-Bold.ttf
+        weight: 600
+      - asset: assets/font/Muli-ExtraBold.ttf
+        weight: 700
+      - asset: assets/font/Muli-Black.ttf
+        weight: 800
+
+  - family: AVENIRLTSTD
+    fonts:
+      - asset: assets/font/AVENIRLTSTD-MEDIUM.OTF
+      - asset: assets/font/AVENIRLTSTD-MEDIUMOBLIQUE.OTF
+      - asset: assets/font/AVENIRLTSTD-OBLIQUE.OTF
+      - asset: assets/font/AVENIRLTSTD-ROMAN.OTF
+
+
+  - family: MyFlutterApp
+    fonts:
+      - asset: assets/font/MyFlutterApp.ttf
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-assets/fonts/#from-packages

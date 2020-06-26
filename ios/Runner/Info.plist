@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>poolinspection</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>We use access to music responsibly</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>We use access to Bluetooth peripherals responsibly</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>We use access to Calendars responsibly</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We use access to camera responsibly</string>
+    <key>NSContactsUsageDescription</key>
+    <string>We use access to contacts responsibly</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>We use access to FaceID responsibly</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>We use access to HealthShare responsibly</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>We use access to health update responsibly</string>
+    <key>NSHomeKitUsageDescription</key>
+    <string>We use access to home kit responsibly</string>
+    <key>NSLocationUsageDescription</key>
+    <string>We use access to location usage responsibly</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>We use access to location always responsibly</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We use access to location when in use responsibly</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We use access to mictophone responsibly</string>
+    <key>NSMotionUsageDescription</key>
+    <string>We use access to motion usage responsibly</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>We use access to NFC reader responsibly</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We use access to photo library responsibly</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We use access to photo library with write only responsibly</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>We use access to reminders responsibly</string>
+    <key>NSSiriUsageDescription</key>
+    <string>We use access to Siri responsibly</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>We use access to speech recognition usage responsibly</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
