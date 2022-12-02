@@ -1,6 +1,6 @@
 # poolinspection
 
-A new Flutter project by <a href="https://www.esearchlogix.com/"eSearch Logix</a>.
+A new Flutter project by <a href="https://www.esearchlogix.com/">eSearch Logix</a>.
 
 ## Getting Started
 
