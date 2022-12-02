@@ -1,4 +1,4 @@
-# poolinspection
+# swimming pool inspection
 
 A new Flutter project by <a href="https://www.esearchlogix.com/">eSearch Logix</a>.
 
